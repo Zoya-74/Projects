@@ -1,0 +1,53 @@
+RandomVSRandom Report
+
+1) What is your conclusion, does the first or
+second player have some advantage, at least for a random strategy? 
+
+2) Watch https://www.youtube.com/watch?v=Iq9DzN6mvYA
+
+3) Briefly write your thoughts on the above video below:
+The above video is a great way to understand different methods of calculating
+probabilities in a way such that students and other individuals who prefer coding
+can understand. It talks about how testing a fair probability / equal chance
+for anything can be calculated with binomial distribution. Another method that
+can be easily coded is shuffling to create a random order, and calculate the
+probability for a hypothesis. Moreover, bootstrapping is another method that can
+estimate the distribution of a sample statistic, also done by coding if chosen to.
+The main point of the video was to introduce methods that are easy for 'Hackers'
+to calculate probabilities and test hypothesis when needed
+
+4) H0 is
+Null Hypothesis: There is no significant difference between the probability of P1
+winning and the probability of P2 winning. H0: P(P1) = P(P2)
+
+5) Ha is
+Alternative Hypothesis: There is a significant difference in the winning probabilities
+of player 1 and player 2. Specifically, P2 has a higher probability of winning compared to
+P1. Ha: P(P2) > P(P1).
+
+
+6) Choose one of the following and delete the other:
+   My experimental results support H0, so they do not support Ha
+
+7) As in the video, use either math or code (add a Java Class) to argue for or against H0
+
+We will use normal approximation to binomial distribution to determine whether the difference
+in number of wins is significant enough to reject H0, or not.
+
+The number of P1 wins in the experiment is 4585. The number of P2 wins is 4910. Ties are negligible
+for the calculations since it does not affect the hypothesis
+We want to calculate the probability that the game results in P2 winning more than or equal to 4910.
+This is because our Ha is P2 > P1. Thus, we need to see the probability of what we observe from our expriement.
+
+(checking whether the experiment results are close to expected results of equal winnings).
+Thus, n (number of non tie games) = 9495
+      X (number of wins P2) = 4910
+      p (expected probability of P2 wins) = 0.5
+Then, μ = n*p = 4747.5 and n*(1-p) = 4747.5
+      σ = √(n*p*(1-p)) = √(9495*0.5*0.5) = 48.72
+      now, z = (x – μ) / σ = (4910 - 4747.5) / 48.72 = 3.335.
+      Thus, since the z value is 3.335 > 0.5, this implies that the dif
+
+
+References: 
+https://www.thoughtco.com/null-hypothesis-vs-alternative-hypothesis-3126413
