@@ -1,0 +1,164 @@
+# Fill in, commit and push each day.
+Member name: Farah Baseet      email:  farah.baseet@mail.utoronto.ca   utorid: baseetfa
+
+Oct 14,2024
+	What I did yesterday: N/A
+	What I will do today: read the Lab07 handout
+	Obstacles I face: processing all the information and requirements
+
+Oct 15,2024
+	What I did yesterday: skimmed the Lab07 handout
+	What I will do today: form a group for this project
+	Obstacles I face: organizing with peers into groups
+
+Oct 16,2024
+	What I did yesterday: chose my group
+	What I will do today: complete LAB07
+	Obstacles I face: coordinating with peers in CSC207
+
+Oct 17,2024
+	What I did yesterday: signed up with my group on website, set up repo and filled out members.txt
+	What I will do today: skimmed the assignment 2 handout
+	Obstacles I face: processing confusing bits of information about assignment requirements
+
+Oct 18,2024
+	What I did yesterday: read through more sprint 1 requirements
+	What I will do today: working on BUG1.006
+	Obstacles I face: tracing the code
+
+Oct 19,2024
+	What I did yesterday: worked on BUG1.006
+	What I will do today: test that BUG1.006 is resolved, continue to look at starter code architecture
+	Obstacles I face: tracing code
+
+Oct 20,2024
+	What I did yesterday: double checked that BUG1.006 is resolved
+	What I will do today: work on and push sprint 1, including UML diagrams, architecture discussion and product backlog
+	Obstacles I face: coordinating with group members to finish off sprint 1
+
+Oct 21,2024
+	What I did yesterday: overcame branching/pushing challenges, worked with group and pushed sprint1
+	What I will do today: skim sprint2 requirements
+	Obstacles I face: looking through all the information
+
+Oct 22,2024
+	What I did yesterday: understood and thought about sprint2 requirements
+	What I will do today: distribute sprint2 US and BUG responsibilities across group members
+	Obstacles I face: finding time to host a meeting with group members
+
+Oct 23,2024
+	What I did yesterday: distributed sprintBacklog2.txt responsibilities
+	What I will do today: begin work on US2.016
+	Obstacles I face: tracing through similar implementation by group members to maintain consistent code logic
+
+Oct 24,2024
+	What I did yesterday: began work on US2.016
+	What I will do today: finish and test US2.016
+	Obstacles I face: balancing listening to user input of two points and making sure the drawn square's sides are equal
+
+Oct 25,2024
+	What I did yesterday: pushed US2.016
+	What I will do today: Studied for midterm.
+	Obstacles I face: Time management and not getting distracted.
+
+Oct 26,2024
+	What I did yesterday: Studied for the 207 midterm
+	What I will do today: Do the term test
+	Obstacles I face: getting a good grade, remaining calm
+
+Oct 27,2024
+	What I did yesterday: took the 207 term test
+	What I will do today: Finalize Sprint2 with group members
+	Obstacles I face: finding time to meet
+
+Oct 28,2024
+	What I did yesterday: Finalized sprint2
+	What I will do today: Do homework for other classes
+	Obstacles I face: Being efficient
+
+Oct 29,2024
+	What I did yesterday: Did some other homework
+	What I will do today: Read Sprint3 requirements
+	Obstacles I face: Finding time
+
+Oct 30,2024
+	What I did yesterday: Worked on other homework
+	What I will do today: Actually read Sprint3 requirements
+	Obstacles I face: Finding time and energy
+
+Oct 31,2024
+	What I did yesterday: Read through Sprint3 requirements
+	What I will do today: Check in with group members
+	Obstacles I face: Time managements
+
+Nov 1,2024
+	What I did yesterday: Worked with group members on Sprint3 parts understanding
+	What I will do today: Review US3.005 requirements and brainstorming implementation
+	Obstacles I face: Tracing through all relevant code
+
+Nov 2,2024
+	What I did yesterday: Read over and reviewed US3.005
+	What I will do today: Begin US3.005
+	Obstacles I face: Implementing a colour selector menu
+
+Nov 3,2024
+	What I did yesterday: Began work on US3.005
+	What I will do today: Complete and finalize Sprint 3 with group members
+	Obstacles I face: Completing US3.005, merging
+
+Nov 4,2024
+	What I did yesterday: Completed Sprint 3
+	What I will do today: Go over sprint 4 requirements
+	Obstacles I face: Time management
+
+Nov 5,2024
+	What I did yesterday: Went over sprint 4 requirements
+	What I will do today: Discuss sprint 4 expectations with group and go over product backlog
+	Obstacles I face: Time management
+
+Nov 6,2024
+	What I did yesterday: Had lots of discussion with group members about sprint 4 responsibilities and brainstorming
+	implementation designs for user stories. Also approved lots of pull requests.
+	What I will do today: Begin work on designing file-related user stories implementations
+	Obstacles I face: Navigating Java file interaction
+
+Nov 7,2024
+	What I did yesterday: Began US4.015 implementation design
+	What I will do today: Make significant commits on US4.015
+	Obstacles I face: effectively storing shape color information
+
+Nov 8,2024
+	What I did yesterday: Pushed a massive commit on US4.015
+	What I will do today: Continue working on US4.015
+	Obstacles I face: figuring out a way to store the color attribute of each drawn shape
+
+Nov 9,2024
+	What I did yesterday: implemented lots of US4.015 functionality
+	What I will do today: complete and submit pull request for US4.015, begin work on US4.016
+	Obstacles I face: cleaning up comments and making small efficiency changes in code
+
+Nov 10,2024
+	What I did yesterday: Pushed US4.016 and other changes with group.
+	What I will do today: Finishing the assigment!
+	Obstacles I face: Completing on time.
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

@@ -1,0 +1,89 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 2 Oct 20-Oct 27, 2024
+# Sprint 2 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.003 : pradha91 : Complete
+NAME     : Architecture behind choosing selection mode is poor
+PRIORITY : 3
+ESTIMATE : 2 days       ACTUAL : 4 days
+ISSUE    : Code is not modular and is difficult to expand. Need a better
+           architecture behind selecting a drawing mode, and handling
+           the drawing events. Consider some design patterns here.
+           Refactor ShapeChooserPanel and PaintPanel to get rid of the
+           'if' blocks in the PaintPanel mouse event code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.016 : baseetfa : Complete
+NAME     : Draw Square
+PRIORITY : 2
+ESTIMATE : 4 hours      ACTUAL : 2 days
+AS A     : user
+I WANT   : To click on one corner of a square, drag, and release to
+		   specify two corners of a square to be drawn in the current style.
+SO THAT  : I can add squares to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.017 : baseetfa : Complete
+NAME     : Draw Square Feedback
+PRIORITY : 2
+ESTIMATE : 2 days       ACTUAL : 1 hour
+AS A     : user
+I WANT   : As a user is specifying a Square, during the drag, a 'current'
+           square should be on display. As the user drags, the 'current'
+           square changes in real time so that a square is drawn with
+           a corner at users initial square click, and the width out to
+           the current dragged mouse position.
+SO THAT  : I can see the square I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.018 : fatim185 : Complete
+NAME     : Draw Triangle
+PRIORITY : 2
+ESTIMATE : 4 hours      ACTUAL : 4 hours
+AS A     : user
+I WANT   : To click on one corner of a triangle, drag, and release set the second
+           corner of the triangle, from which I can click on the point, drag and release
+           to create a triangle with three specified points.
+SO THAT  : I can add triangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.019 : fatim185 : Complete
+NAME     : Draw Triangle Feedback
+PRIORITY : 2
+ESTIMATE : 2 hours      ACTUAL : 2 hours
+AS A     : user
+I WANT   : As a user is specifying a Triangle, during the drag, a 'current'
+           triangle state should be on display. As the user drags the third point of the triangle,
+           the 'current' triangle changes in real time so that a triangle is drawn with
+           the first point at users initial triangle click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the triangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.020 : karims14 : Complete
+NAME     : Draw Oval
+PRIORITY : 2
+ESTIMATE : 1 day        ACTUAL : 1 day
+AS A     : user
+I WANT   : To click the center of the oval, drag, and release to specify
+           an oval to be drawn in the current style.
+SO THAT  : I can add ovals to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.021 : karims14 : Complete
+NAME     : Draw Oval Feedback
+PRIORITY : 2
+ESTIMATE : 1 day        ACTUAL : 1 day
+AS A     : user
+I WANT   : As a user is specifying an Oval, during the drag, a 'current'
+           oval should be on display. As the user drags, the 'current'
+           oval changes in real time with a rectangle guide so that an oval is drawn with
+           the corner of the rectangle at users initial oval click, with length and width
+           out to the current dragged mouse position.
+SO THAT  : I can see the oval I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------

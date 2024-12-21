@@ -1,0 +1,303 @@
+# Architecture
+
+# MVC
+# ModelClasses
+   PaintModel, Command.java, DrawCommandStrategy.java(Subclasses: DrawCircleCommand.java, DrawOvalCommand.java,
+   DrawRectangleCommand.java, DrawSquareCommand.java, DrawTriangleCommand.java, DrawPolylineCommand.java,
+   DrawPolygonCommand.java, DrawSquiggleCommand.java, AddTextCommand.java,DrawRoundedRectCommand.java,
+   ClearCanvasCommand, CutCommand, CopyCommand, PasteCommand, FillBackgroundCommand, FillShapeCommand,
+   MultiSelectCommand, SelectElementCommand, RedoCommand, UndoCommand, SaveFileCommand, OpenFileCommand, NewFileCommand
+# ViewClasses
+   View.java, ShapeChooserPanel.java, VisualEditorPanel.java
+# ControllerClasses
+   View.java, ShapeChooserPanel.java, ThicknessSelectorHandler, TextInputHandler, ShapeColorSelectorHandler,
+   OutlineColorSelectorHandler, FillBackgroundHandler, FillShapeHandler.
+
+# (other logical  ways of collecting your classes)
+   Shape Classes
+   Command Classes
+
+# Design Patterns Used (collections of classes into DP)
+   Command
+   Strategy
+   Observer
+   Factory
+   Null Object
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Name: Paint Command (so you can refer to it below)
+Pattern Name: Command
+Reference: (link to a specific version of a DP in https://www.oodesign.com/)
+   https://www.oodesign.com/images/design_patterns/behavioral/command_implementation_-_uml_class_diagram.gif
+
+Purpose:
+   The Paint Command design pattern allows a developer to easily extend functionality of the paint application beyond
+   the base features, this is made possible because the Command interface has a single execute function that each class
+   the implements Command must create. The design pattern ensures homogeneity in function calls, which is apparent in
+   the Command Invoker classes ShapeChooserPanel.java and View.java.
+UML:
+   Refer to PaintCommandUML.png
+
+Classes:
+   (list classes involved and their roles based on Reference above)
+   Command Interface:
+      Command: Main command interface
+   Additional Command Classes:
+      DrawCommand: Abstract Command Strategy
+   Concrete Commands:
+      DrawCircleCommand: Concrete Command
+      DrawOvalCommand: Concrete Command
+      DrawRectangleCommand: Concrete Command
+      DrawSquareCommand: Concrete Command
+      DrawTriangleCommand: Concrete Command
+      DrawPolylineCommand: Concrete Command
+      DrawPolygonCommand: Concrete Command
+      DrawSquiggleCommand: Concrete Command
+      AddTextCommand: Concrete Command
+      DrawRoundedRectCommand: Concrete Command
+      FillBackgroundCommand: Concrete Command
+      UndoCommand: Concrete Command
+      RedoCommand: Concrete Command
+      SingleSelectCommand: Concrete Command
+      SaveFileCommand: Concrete Command
+      NewFileCommand: Concrete Command
+      OpenFileCommand: Concrete Command
+      FillShapeCommand: Concrete Command
+      MultiSelectCommand: Concrete Command
+      NullCommand: Concrete Command
+
+   Command Invokers:
+      PaintPanel: Command Invoker
+      View: Command Invoker
+      FillBackgroundHandler: Command Invoker
+
+Usage:
+   To add a new Drawing Mode or Editing Mode to the app, a new Concrete Command class can be added. To achieve this, a
+    developer has to create a new class that implements the Command interface, and design an execute function based on
+    the functionality intended. After designing the logic of execute, the user has to implement the Undo and Redo
+    methods for the command.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Name: Shape Strategy (so you can refer to it below)
+Pattern Name: Strategy
+Reference: (link to a specific version of a DP in https://www.oodesign.com/)
+
+https://www.oodesign.com/images/design_patterns/behavioral/strategy_implementation_-_uml_class_diagram.gif
+
+Purpose:
+   The Shape Strategy pattern enables the addition of new drawing mode logic by extending the ShapeStrategy class.
+   By designing a ShapeStrategy super class, all common attributes of a drawn element can be defined without duplication
+   in the ShapeStrategy class. Examples of this include Line Thickness, Fill Color, Fill Mode and their corresponding
+   getter and setter methods. By creating a shape strategy and extending each different shape, the Single
+   Responsibility principle is maintained. Furthermore, the design pattern ensures the Liskov Substitution Principle is
+   maintained since any of the sub classes of ShapeStrategy can substitute the class itself.
+
+UML:
+   Refer to ShapeStrategyUML.png
+
+Classes:
+   Shape Strategy: Strategy Interface
+   Oval: Concrete Strategy
+   Circle: Concrete Strategy Extending Oval
+   Triangle: Concrete Strategy
+   Rectangle: Concrete Strategy
+   Square: Concrete Strategy Extending Rectangle
+   Rounded Rectangle: Concrete Strategy Extending Rectangle
+   Polygon: Concrete Strategy
+   Squiggle: Concrete Strategy
+   Text: Concrete Strategy
+
+Usage:
+   If the developer wants to add a new shape/element, they create a new class that extends ShapeStrategy. In the newly
+   defined class, the developer can set rules setDimensions, and code the logic for drawShape to allow for the shape to
+   display as intended on the Paint Panel. The shape design is successfully added to the paint model’s logic, and can
+   be implemented using a Command.
+------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Name: Null Command (so you can refer to it below)
+Pattern Name: Null Object
+Reference: (link to a specific version of a DP in https://www.oodesign.com/)
+
+https://www.oodesign.com/images/design_patterns/behavioral/null_object_implementation_-_uml_class_diagram.gif
+
+Purpose:
+	The Null Object pattern is implemented to allow the Paint Application to perform an empty action while the user is
+	idle on the screen. Therefore, when no drawing mode is selected, the NullCommand is invoked by the PaintPanel
+	Command Invoker, and performs a null action, as intended.
+
+UML:
+   Refer to NullCommandUML.png
+
+Classes:
+   DrawCommandStrategy: Abstract Operation
+   NullCommand: Null Operation
+   Concrete Operations:
+      DrawCircleCommand: Concrete Operation
+      DrawOvalCommand: Concrete Operation
+      DrawRectangleCommand: Concrete Operation
+      DrawSquareCommand: Concrete Operation
+      DrawTriangleCommand: Concrete Operation
+      DrawPolylineCommand: Concrete Operation
+      DrawPolygonCommand: Concrete Operation
+      DrawSquiggleCommand: Concrete Operation
+      DrawRoundedRectCommand: Concrete Operation
+      SingleSelectCommand: Concrete Operation
+      MultiSelectCommand: Concrete Operation
+
+
+Usage:
+   When creating a new command invoker, the value of the initial command being invoked can be NullCommand, to ensure no
+   change of application state occurs on load.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Name: Command Factory (so you can refer to it below)
+Pattern Name: Factory
+Reference: (link to a specific version of a DP in https://www.oodesign.com/)
+
+
+https://www.oodesign.com/images/stories/factory%20implementation.gif
+
+
+Purpose:
+   The Command Factory class allows the invocation and initialisation of a new Command class without revealing the
+   instantiation logic to the main program. The Command Factory ensures that the command that the Invokers View.java and
+   ShapeChooserPanel.java are not Hard-coded to specific sub-classes of a Product.
+
+UML:
+   Refer to CommandFactoryUML.png
+
+Classes:
+   Client(s): View, ShapeChooserPanel
+   CommandFactory: Factory
+   Command: Product
+   DrawCircleCommand: Concrete Product
+   DrawRectangleCommand: Concrete Product
+   DrawSquareCommand: Concrete Product
+   DrawOvalCommand: Concrete Product
+   DrawTriangleCommand: Concrete Product
+   DrawSquiggleCommand: Concrete Product
+   DrawPolylineCommand: Concrete Product
+   DrawRoundedRectCommand: Concrete Product
+   DrawPolygonCommand: Concrete Product
+   UndoCommand: Concrete Product
+   RedoCommand: Concrete Product
+   ClearCanvasCommand: Concrete Product
+   SelectElementCommand: Concrete Product
+   MultiSelectElementCommand: Concrete Product
+   SaveCommand: Concrete Product
+   NewCommand
+
+   CopyCommand: Concrete Product
+   PasteCommand: Concrete Product
+   CutCommand: Concrete Product
+   NullCommand: Concrete Product
+
+Usage:
+   If a developer wants to add a new Draw Feature or Edit Feature to the View classes, after coding the Command class
+   logic by creating a new class that implements the interface Command. Lastly, the newly defined Command class can be
+   added as a possible output of the CommandFactory if the input variable indicates that the command pertaining to the
+   new feature should be invoked. Therefore, a new instance of the Feature Command is returned to be executed by the
+   Command Invoker.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+# High Level Architecture Discussion
+
+   (Put all of the above together in a collection of stories which tell the
+   developer how to modify, extend, or understand your code)
+
+   (For each story, pull from and modify the highLevelTemplate.txt)
+--------------------------------------------------------------------------------
+New Editing Mode:
+Description:
+   Editing modes allow the user to modify a characteristic of drawing modes, such as Color, thickness, fill, size, and
+   position. These features do not impact the Paint Panel, but instead modify individual Shape attributes part of the
+   PaintModel.
+
+
+Implementation:
+   (inventory of ideas, required files, how they are tied to the architecture,
+      naming conventions (example: images/ButtonIconSquare.jpg, MHStrategySquare, ShapeSquare...)
+
+
+   To add a new editing mode named X:
+   First, add a button or the chosen node element to the view. Depending on developer’s discretion, the new node may be
+   added to the View defined by “VisualEditorPanel”, “ShapeChooserPanel, or “View” class directly. Examples of possible
+   nodes include Button, ComboBox, ToolBar and TextField. Once the node is added to either class, the View component of
+   incorporating an editing mode is complete.
+
+   If the node is defined in the ShapeChooserPanel or View class:
+        The developer must first define a class called “<Editing Mode Name>Command”, which implements class Command.
+        The newly defined class <Editing Mode Name>Command must implement the execute(PaintPanel paintPanel), Undo() and
+        Redo() functions. The execute method can modify the PaintModel and the shapes in it to perform the edit feature
+        as intended. Once the Command class is completed, the developer can add the label as a possible case in the
+        CommandFactory class, which returns a new instance of <Editing Mode Name>Command. Now, the edit mode has been
+        completely implemented.
+
+   If the developer adds the input node to the VisualEditorPanel, then they must create an event handler class titled
+   <Editing Mode>Handler, that performs an action based on the intended logic of the feature. The handler should
+   implement the class EventHandler<MouseEvent> or EventHandler<ActionEvent>, EventHandler<KeyEvent> or any other
+   EventHandler interface. Once the newly defined node is linked to the event handler class, the feature has been fully
+   implemented.
+
+
+Example:
+   List of Files involved in implementing the Undo mode:
+   - View.java
+   - Created new class UndoCommand.java (implements Command.java)
+   - PaintModel.java
+   - CommandFactory.java
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+New Drawing Mode:
+Description:
+   Drawing modes enable a user to add a shape to the paint board and allow the user to add a shape based on preset
+   rules, dimensions, and appearance. Capabilities of drawing modes include fill color change, outline color change,
+   outline thickness change and move shape.
+
+Implementation:
+
+   To add a new drawing mode named X provide:
+   To add a new draw mode, first add the button title “X” to the array of ShapeChooserPanel with button labels, and then
+   add the Image View containing an icon of the action X. Then add the new ImageView to the return value. All required
+   changes for ShapeChooserPanel are made. The role of ShapeChooserPanel is the view, and once this step is complete,
+   the view now includes the button to change to drawing mode X.
+
+   Details for the image icon in the button: Obtain an icon-style image on a web browser representing the draw mode X
+   and copy the image address. Create a new instance of class Image with a parameter set as the image address.
+
+   To finalise the image, create an instance of ImageView and add the parameter of the constructor as the Image class
+   instance. Lastly, setGraphic() of the new button created to the ImageView instance corresponding to X.
+
+   Create a class titled “X”, or the type of annotation X refers to, and set it to extend the class ShapeStrategy. Add a
+   constructor that takes the first parameter as a point corresponding to the centre of the shape, and any parameters
+   after it based on other data required to be stored in every instance of X. This class is part of the Model, and
+   dictates the drawing logic and overall behaviour of the shape when an action is performed on it.
+
+   Next, implement any abstract methods of X, including drawShape, which dictates the logic behind the appearance of the
+   shape on the PaintPanel, and implement the reposition abstract method and inBoundary abstract method to make the
+   annotation X a selectable value. The method inBoundary checks whether an inputted coordinate is within the bounds of
+   a shape and its dimensions, and reposition changes the coordinates of a shape based on an x and y-axis offset input.
+   Implement both methods according to the rules of annotation X.
+
+   Lastly, create a class titled “DrawXCommand” that extends DrawCommandStrategy, and implements all the required
+   methods including execute, Undo, and Redo. The functionality for execution will include, checking for a type of
+   MouseEvent, and drawing the shape based on the coordinates of a user’s mouse movement. The rules of drawing the shape
+   corresponding to a mouse input are up to the developer’s discretion.
+
+   Lastly, add a case condition to the CommandFactory class’ getCommand method that checks the case where the input
+   parameter is “X”. If the case is met, then a new instance of DrawXCommand should be returned.
+
+   After following these steps, a shape has successfully been added, along with the undo functionality for adding and
+   remove the shape X from the paint screen. This command class acts as an extension to the event handler, or the
+   observer which is PaintPanel for draw commands.
+
+
+Example:
+   List of Files involved in implementing the square draw mode:
+   - Rectangle.java
+   - ShapeChooserPanel.java
+   - DrawSquareCommand.java
+   - CommandFactory.java
+--------------------------------------------------------------------------------
+

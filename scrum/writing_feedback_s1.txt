@@ -1,0 +1,8 @@
+S&O: 3
+WM: 3.5
+AE: 3.5
+
+Feedback:
+- [S&O] In architecture part, the indentation is not consistent. For some section titles, lines are change directly. But some have colons, which is also not consistent. In productBacklog, the inconsistency of structure also exists for example in description of item "NAME     : Squiggle is broken".
+- [WM] The writing mechanism is overall fine. But some small mistakes. For example, the consistent usage of and in one sentence. One example is the last several sentences in architecture.txt.
+- [AE] The overall usage of brackets break the consistency of reading passage. For example, in the "View and Controller", in architecture.txt, there are three "which". One which is in the brackets. It is hard to understand which "which" refer to what items previously mentioned.

@@ -1,0 +1,160 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 3 Oct 27-Nov 03, 2024
+# Sprint 3 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.007 : pradha91 : Complete
+NAME     : Proportions of Paint View are not favourable
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 1 day
+ISSUE    : The paint app buttons and added functionality take up too much space on
+           the screen when opening the paint app, and the area in which the user can draw
+           is too small to make proper paintings.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.008 : pradha91 : Complete
+NAME     : Undo Button
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 4 hours
+AS A     : user
+I WANT   : To click an "Undo" button reverts the last action made to the
+           canvas.
+SO THAT  : I can revert the most recent change made to the canvas, whether it
+           is drawing a new shape or customizing the shape. The canvas should
+           only undo the recent change while keeping the rest of the canvas in
+           its current state.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.009 : pradha91 : Complete
+NAME     : Redo Button
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 4 hours
+AS A     : user
+I WANT   : To click a "Redo" button that will reverse the effect of the undo
+           button, restoring the most recent action that was undone.
+SO THAT  : When the button is clicked, the program brings back any element or
+           customization to the canvas that was previously removed by the "Undo"
+           button. This allows me to restore any changes to the canvas that were
+           recently undone.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.012 : fatim185 : Complete
+NAME     : Clear Canvas
+PRIORITY : 3
+ESTIMATE : 4 hours      ACTUAL : 4 hour
+AS A     : user
+I WANT   : To clear all annotations and elements on the canvas with a "Clear Canvas"
+           button.
+SO THAT  : I can remove all elements from the canvas so that the canvas reverts
+           back to its original state of a blank canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.004 : pradha91 : Complete
+NAME     : Architecture behind Model is poor
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 1 day
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.007 : fatim185 : Complete
+NAME     : Line Thickness Selector
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : User can adjust the thickness of the border of any annotations they wish to add.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.022 : karims14 : Complete
+NAME     : Draw PolyLine
+PRIORITY : 3
+ESTIMATE : 2 days       ACTUAL : 5 hours
+AS A     : user
+I WANT   : To draw a polyline by pressing and dragging the mouse to create a line
+           segment, then releasing the mouse to define the endpoint of that segment.
+           After each mouse release, the next segment should begin when pressing the
+           mouse at the end point of the previous segment and dragging. To finish the
+           polyline, I want to double-click the end point of the last line segment.
+SO THAT  : I can add a polyline to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.006 : fatim185 : Complete
+NAME     : Fill Style Selector
+PRIORITY : 3
+ESTIMATE : 4 hours      ACTUAL : 3 hours
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example:
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : user can decide to create an unfilled or filled shape on canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.023 : pradha91 : Complete
+NAME     : Add TextBox
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to add a text box to the canvas that contains a custom
+           text string.
+SO THAT  : I can type any desired text in the field and place it on the canvas
+           as an element. I can add text and characters to my canvas with
+           customizable colors
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.005 : baseetfa : Complete
+NAME     : Fill Color Selector
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example:
+           	    selects color red
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+            results in two red circles and a red rectangle as well as
+            two green rectangles and a green squiggle
+SO THAT  : I can customize the color of my elements.
+--------------------------------------------------------------------------

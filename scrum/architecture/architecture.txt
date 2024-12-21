@@ -1,0 +1,111 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	To keep the code simple, a partial MVC was implemented.
+	
+	Model
+	The Model captures enough information to re-draw the sketch of
+	the user.
+	
+	View+Controller
+	There is a View class as well as a few, what we call, view components.
+	The View class containing the BorderPane as well as containing all of its components.
+	View components are meant to be contained in the main View.
+	Examples of view components are PaintPanel and ShapeChooserPanel.
+	
+	The View class, and view components all implements their own controller.
+	For example, the PaintPanel listens to its own MouseEvents.
+	This is instead of separating out the Controller from the View. This choice
+	was made to simplify the code, yet still keep it modular and clear.
+	
+	Each view component can see the containing View as well as the Model
+	as appropriate. This means that each view component can speak to the
+	other view components. An example of this is when the ShapeChooserPanel
+	buttons are clicked, resulting in a mode change in the PaintPanel.
+
+	Additional information on MVC:
+	- The PaintModel acts as the base model for the system, which consists of
+	the major logic of adding shapes to the board and updating the board state.
+	In addition to this, the classes Circle and Rectangle implement the logic
+	behind a shape's behaviour, such as Radius, length and width. This, alongside
+	class Point which forms the coordinate system on the canvas, enables the creation
+	of a fundamental model for the Paint application.
+	- View and Controller: Changes made to the circles on the panel are registered on the
+	canvas by a controller (which is mouse events) which then notifies the model,
+	which is PaintModel to change state (add a shape to its ArrayList in PaintModel +
+	Update board state). After changing state of any instance fields in PaintModel,
+	the model notifies the Paint Panel, which attempts to update the canvas with the
+	new shape drawn by first calculating the point when the user clicked the mouse,
+	 how far a user has dragged their mouse until the point they released the mouse.
+	 This calculation provides initialising values for the shape to create a new shape
+	 object, and then the PaintPanel performs the action to make the change viewable
+	 on canvas.
+	 - Summary: The Model includes PaintModel which incorporates all the Shape classes,
+	 which at present include Circle and Rectangle, along with the Point Class. The
+	 PaintModel class gets notified by the controller (EventHandler) of any actions performed
+	 on view, which the view notifies the observer of (
+	 for example: if (mouseEventType.equals(MouseEvent.MOUSE_PRESSED))).
+	
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example,
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code.
+
+	ANSWER: No design patterns have been introduced thus far to solve a problem
+
+	Strategy:
+	Command: 
+	Singleton:
+	Composite:
+	Factory:
+	Builder:
+	Observer/Observable:
+	... (any others you find useful) ...
+
+OTHER ARCHITECTURE DISCUSSIONS
+1) Understanding the architecture and code pieces:
+    - The Circle and Rectangle classes are all required to reflect
+    the behaviour of each shape on the canvas, currently they are not linked
+    or do not extend any other class.
+    - The Point class allows the use of a coordinate system on the canvas to
+    calculate the length of a user drag when drawing a shape.
+    - The paint class sets up our view but creating the stage and scene.
+    Additionally it sets up our model, PaintModel which acts as the Observable
+    which records and stores user actions on the canvas including adding a rectangle,
+    circle or squiggle (by the end of sprint 1)
+2) How to add another shape feature to the system:
+    - Create a new shape class
+    - Set the private attributes of the shape class to the components that are used to
+     determine the dimensions of the shape. Also, add setter and getter methods
+     to access these components from other classes. For most shapes, add a centre value
+     of type Point as well.
+     - Then update Paint Model by initialising an instance attribute Array List containing the
+     new shape, and add methods to construct a new shape and add to the ArrayList along with updating
+     the view.
+     - Add the shape name as a button to the shape chooser panel so that the user can
+     access and draw it on the application, appropriately add icons or additional functionality
+     if needed
+     - Lastly, add to the case statement in the Paint Panel class, by adding the case
+     that this.mode is equal to the new shape, and appropriately design the functionality
+     when the mouse is pressed, moved, dragged or released, which is achieved by adding
+     if statements similar to those for other shapes or draw modes.
+     3) UML Diagrams are included in the architecture folder.
+     4) Additional information:
+        We have not changed any major architecture or structure yet in sprint 1, however
+        we did notice that the different shapes, such as Circle and Rectangle can extend
+        a general Shape class. This is because most shapes will have a centre point on the canvas.
+        So extending a general shape class will reduce the repetition of implementation of getters
+        and setters for centre, and will allow PaintModel to use a single ArrayList for future features.
+
+        Although not implemented, shapechooserpanel and paintpanel are both components of the View of the
+        MVC, so they should be classes that have some relation to the View class.

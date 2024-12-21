@@ -1,0 +1,173 @@
+# Fill in, commit and push each day.
+Member name:Zoya Fatima     email:zoya.fatima@mail.utoronto.ca     utorid:fatim185
+
+Oct 14,2024
+	What I did yesterday: N/A
+	What I will do today: Read the assignment handout and learn more about Git branching
+	Obstacles I face: Issues with learning how to branch on Git
+
+Oct 15,2024
+	What I did yesterday: Read assignment handout, watched a youtube video on doing scrum with GIT
+	What I will do today:Meet with team members to plan out the assignment and assign tasks to everyone
+	Obstacles I face: Proper time management and co-ordination with team members to figure out how much
+	work everyone can manage
+
+Oct 16,2024
+	What I did yesterday: Had a meeting with team members, introduced ourselves. Discuss the team plan for the project
+	What I will do today: Read lab07 handout, discuss with teammates who have the lab today to add to the repository
+	Obstacles I face: Applying what I learned about branching and merging, and solving conflicts during merge
+
+Oct 17,2024
+	What I did yesterday: discussed with teammates who populated the repository, understood how to branch
+	What I will do today: Choose my bug/user to implement and branch. Also add two new user stories in product backlog
+	Obstacles I face: Branching for my chosen bug/user and adding, commiting and pushing on my branch
+
+Oct 18,2024
+	What I did yesterday: Updated members.txt, read through all the classes for paint application and understood how they work. Chose BUG1.002
+	What I will do today: Start understanding how to fix my bug
+	Obstacles I face: Understanding how buttons work in Java API, knowing what useful methods I can implement to fix my bug
+
+Oct 19,2024
+	What I did yesterday: Went over the Java API for buttons and how to customize buttons
+	What I will do today: Apply my research and configure the selected button to be a certain color
+	Obstacles I face: Issues with fixing the bug, making sure any new instance variables follow proper encapsulation.
+
+Oct 20,2024
+	What I did yesterday: Fixed BUG1.002, had no issues with it and followed proper encapsulation
+	What I will do today: Select the last user story, US1.004 in sprint 1 and complete it. Add UML diagrams and discuss the architecture with team members
+	Obstacles I face: Understanding efficient way to code my user story, creating UML diagrams that follow the rules, merging and solving
+	conflicts from previous commits of team members, ensuring encapsulation and using class relationships / java API efficiently
+
+Oct 21,2024
+	What I did yesterday: Finished Sprint 1 (US1.004), discussed the architecture with teammates and added UML diagrams for future reference
+	                      Discussed how we might change the architecture in the future for structure and encapsulation
+	What I will do today: Discuss Sprint 2 with teammates, decide who wants to take on each user story or bug, create user
+	                      stories for square, oval and triangle (or decide which teammate wants to create it)
+	Obstacles I face: Understanding what architecture to change and how to change it efficiently without breaking the code
+
+Oct 22,2024
+	What I did yesterday: Created user stories for triangle, square and oval, distributed the tasks accordingly and understood the architectures used/to use
+	What I will do today: In meeting, talk about alignment issues for more recent shapes, decide how to change architecture. Talk about how to
+	implement the erase feature on the canvas. Make area of canvas bigger when window screen is enlarged. Complete US1.018 and US1.019
+	Obstacles I face: Properly implementing a triangle shape that is also shown mid-construction.
+
+Oct 23,2024
+ 	What I did yesterday: Started US1.018, got new info on how it should be implemented so didn't complete
+ 	What I will do today: Studied for the midterm!
+ 	Obstacles I face: MVC understanding
+
+ Oct 24,2024
+ 	What I did yesterday: Midterm study
+ 	What I will do today: Finalized what architecture changes to make with team, split up the work on the bug (branched on bug brancbh)
+ 	Obstacles I face: Co-ordinating the overlapping parts in architecture change with group.
+
+Oct 25,2024
+	What I did yesterday: Decided to create a shape class, a factory for the shape to change architecture
+	What I will do today: Study for the midterm again!
+	Obstacles I face: Not getting stressed
+
+Oct 26,2024
+	What I did yesterday: Studied for the 207 term test
+	What I will do today: Give the term test!
+	Obstacles I face: Doing good on the term test
+
+Oct 27,2024
+	What I did yesterday: Gave the csc207 term test!
+	What I will do today: Finish triangle draw and feedback in a new way where user can
+	choose points instead of click and drag
+	Obstacles I face: implementing triangle efficiently
+
+Oct 28,2024
+	What I did yesterday: Finished Sprint 2 tasks
+	What I will do today: relax and take a break
+	Obstacles I face: trying not to think about school
+
+Oct 29,2024
+	What I did yesterday: relaxed and took a break from school
+	What I will do today: Read the sprint 3 requirements and confer with teammates
+	Obstacles I face: Distributing the tasks with teammates in a fair manner
+
+Oct 30,2024
+	What I did yesterday: Read the sprint 3 requirements and discussed the tasks we want to do with team
+	What I will do today: Choose my task and think about how to implement it
+	Obstacles I face: deciding to implement my task in a way that keeps the architecture efficient
+
+Oct 31,2024
+	What I did yesterday: Got distracted :(
+	What I will do today: Research how to implement my task and see if I want to switch it
+	Obstacles I face: finding a good way to finish my US
+
+Nov 1,2024
+	What I did yesterday: Decided on my US and researched how to implement it
+	What I will do today: Start working on my US for sprint 3
+	Obstacles I face: any issues or bugs while implementing my US
+
+Nov 2,2024
+	What I did yesterday: Finished US3.007 and made a pull request
+	What I will do today: Have a meeting with someone to review my code and merge it
+	Obstacles I face: merge conflicts especially when the entire architecture might be changed
+	due to BUG3.004!
+
+Nov 3,2024
+	What I did yesterday: Had a meeting with team members and handled all the pull requests for everyone
+	and merged
+	What I will do today: Finish US3.012 and US3.006 and make pull request
+	Obstacles I face: Finding and researching a new method to select fill style and decide where to put it in the
+	application view
+
+Nov 4,2024
+	What I did yesterday: Finished my three US for sprint 3 and had a meeting to go over code so
+	team member can merge it
+	What I will do today: Wait for sprint 4 instruction and read them
+	Obstacles I face: Decide what new features to implement for the final sprint and get creative ideas
+
+Nov 5,2024
+	What I did yesterday: Had a brief discussion with teammates about architecture implementation
+	What I will do today: Read the spring 4 instructions, chose features for implementing
+	Obstacles I face: Deciding what extra features to implement to our project
+
+Nov 6,2024
+	What I did yesterday: Completed BUG4.012, BUG4.014, US4.031, BUG4.015
+	What I will do today: Added pull requests for each finished bug and US
+	Obstacles I face: merge conflicts
+
+Nov 7,2024
+	What I did yesterday: Merged all the features I made with a puller
+	What I will do today: Study for my STA256 midterm
+	Obstacles I face: Getting good grades
+
+Nov 8,2024
+	What I did yesterday: Studied for STA256
+	What I will do today: Study for STA256
+	Obstacles I face: Getting good grades
+
+Nov 9,2024
+	What I did yesterday: Studied for STA256 midterm
+	What I will do today: Give midterm, complete BUG4.016, BUG4.010
+	Obstacles I face: Fixing the bugs properly without any issues
+
+Nov 10,2024
+	What I did yesterday: Completed BUG4.016 and BUG4.010 and merged with pullers
+	What I will do today: Final edits and merging all other features of teammates
+	Obstacles I face: completing project on time
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

@@ -1,0 +1,282 @@
+--------------------------------------------------------------------------------
+FeatureName: Shape Outline Color
+
+Description:
+   Adjust the outline color by selecting any color from the color picker titled “Outline”. Allows a user to draw an
+   outlined shape with any outline color.
+
+Reference:
+   US4.031
+--------------------------------------------------------------------------------
+FeatureName: Shape Fill Color Selector
+
+Description:
+   Allows the user to choose the fill color of shapes they draw. The user must navigate to the color picker button
+   labelled “Fill” color picker button and select a color. Afterwards, any shape they draw with the fill style “Outline
+   & Fill” or “Fill” will be filled with the user’s selected color.
+
+Reference:
+   US3.005, BUG4.009, BUG4.014
+
+--------------------------------------------------------------------------------
+FeatureName: Text Box and Undo + Redo Add a text box
+
+Description:
+   Add text to the whiteboard by inputting characters to a text input field on the top-right corner of the screen, first
+   click on the button with the text icon, which enables the text field for input. Then type the text required, and
+   press Enter to confirm the addition of text to the screen. Disable the text field by clicking the button with the
+   text icon once more to continue adding other elements. Press undo to remove the addition of a text box on the screen.
+
+Reference:
+   US3.023
+
+--------------------------------------------------------------------------------
+FeatureName: Line Thickness Slider
+
+Description:
+   Change the thickness of a shape’s outline or the line thickness of a squiggle, polyline or polygon using a slider
+   that allows the thickness to be set to any continuous value between 1.0 and 20.0. Hover over the slider button to get
+   a pop-up showing the true value for line thickness.
+
+Reference:
+   US3.007, BUG4.010
+
+--------------------------------------------------------------------------------
+FeatureName: Changeable Text Color
+
+Description:
+   Before inputting text, change the color chosen in the Color Picker titled “Fill”, then input text and the color will
+   be the chosen color in “Fill”.
+
+Reference:
+   US3.023
+
+--------------------------------------------------------------------------------
+FeatureName: Select Mode
+
+Description:
+   Select any single element on the paint screen that has been drawn by the user, and change the position of the element
+   by dragging it across the screen to its desired position, release the mouse and click elsewhere to exit select. To
+   select a different element, click on a different shape at a different position on the paint screen and the previous
+   selection will be deselected. A shape’s color turns lime green when selected.
+
+Reference:
+   BUG4.019, US4.029, US4.030
+
+--------------------------------------------------------------------------------
+FeatureName: Multi Select Mode
+
+Description:
+   Select multiple elements on the paint screen that have been drawn by the user, this can be done by clicking
+   individually on the drawings intended to be selected. All the selected shapes will change color to lime green.
+
+Reference:
+   US4.029, US4.030
+
+--------------------------------------------------------------------------------
+FeatureName: Move Object Mode
+
+Description:
+In single select mode, to change the position of the element a user must drag the selected shape across the screen to
+its desired position and release the mouse to confirm the repositioned shape. If the mouse is dragged while selecting
+multiple shapes, all the selected shapes will be repositioned to the dragged position relative to the centre of the
+combined dimension of all selected shapes. The distance and positioning of selected shapes relative to each other while
+be preserved.
+
+Reference:
+   US4.029, US4.030
+
+--------------------------------------------------------------------------------
+FeatureName: Draw Polygon
+
+Description:
+   Create an irregular shape with straight line edges with a custom number of sides based on the user’s input. Single
+   click to set a vertex of the shape, and move the mouse without dragging to set the length of one side. To finish
+   drawing a polygon, double click on the circle (at the start point of the polygon) and the shape is drawn.
+
+Reference:
+   US4.024, US4.025, BUG4.015
+
+--------------------------------------------------------------------------------
+FeatureName: Draw Rounded Rectangle
+
+Description:
+Create a rectangle with rounded corners based on user input. Users click and drag on the canvas to define the
+rectangle’s width and height.
+
+Reference:
+   US4.027, US4.028
+
+--------------------------------------------------------------------------------
+FeatureName: Change Background Color and Undo + Redo change the background color
+
+Description:
+	Change the color of the paint board background by choosing the desired background color in the “Fill” Color picker.
+	To change the background after color selection, click on the paint bucket icon with a hover toolkit and the
+	background color will successfully change. To revert the background color to its initial state. The same functionality works for redo the background color, which reverts the background color to change state.
+
+Reference:
+   US4.026
+
+--------------------------------------------------------------------------------
+FeatureName: Scrollable screen size with Expandable Canvas
+
+Description:
+   Expand the canvas size by making the applications screen larger, this will provide a greater area to add drawings on
+   the board. If the paint app size is minimized after, the screen will have a scroll bar so that the annotations made
+   on other parts of the screen not visible are still preserved.
+
+Reference:
+   US4.032
+--------------------------------------------------------------------------------
+FeatureName: Undo
+
+Description:
+   Undo a command performed by the user when adding any annotation, changing the background color, or pasting an image
+   on the canvas. To access the undo button, click on the “Edit” tab of the top menu bar, and then navigate to “Undo”
+   and press.
+
+Reference:
+   US1.008
+
+--------------------------------------------------------------------------------
+FeatureName: Redo
+
+Description:
+   Redo a command last Undone by user To access the redo button, click on the “Edit” tab of the top menu bar, and then
+   navigate to “Redo” and press.
+
+Reference:
+   US1.009
+
+--------------------------------------------------------------------------------
+FeatureName: Clear Canvas and Clear Canvas Undo + Redo
+
+Description:
+   To clear Canvas, access the “Edit” menu bar on the top of the application and select “Clear Canvas”. Once clicked,
+   all drawings of shapes, excluding changes in background color, will be cleared from the screen. If Undo is pressed after clearing canvas, then all previously cleared annotations will reappear on the paint canvas. Redo will revert the clear canvas action to a cleared state.
+
+Reference:
+   US1.012
+
+--------------------------------------------------------------------------------
+FeatureName: Accessibility feature - Hover over button to get use/purpose
+
+Description:
+   When hovering over a button on the top panels to select drawing mode or modifying line thickness using a slider, if a user hovers over the button, a small text pop-up appears which explains the purpose of a drawing mode, or provides the exact value of the line thickness for the thickness slider. Additional feature for accessibility and ease of use.
+
+Reference:
+   US4.032
+
+--------------------------------------------------------------------------------
+FeatureName: Copy Selected Object(s)
+
+Description:
+   Copy all drawings on the paint board that are selected, either in single select or multi-select action, and save the
+   details to the clipboard awaiting a paste action. To access this feature, first select items, and then navigate to
+   the “Edit” menu bar and click on “Copy”.
+
+Reference:
+   US4.010, BUG4.020
+
+--------------------------------------------------------------------------------
+FeatureName: Paste Selected Object(s) and Undo + Redo paste
+
+Description:
+   If any drawings are copied to the clipboard previously, then if a user navigates to the “Edit” menu bar and clicks
+   paste a new copy of the selected drawings is added to the paint board. If the Undo button is pressed after pasting,
+   then the pasted drawings will be removed from the paint board.
+
+Reference:
+   US4.011
+
+--------------------------------------------------------------------------------
+FeatureName: Cut Selected Object(s)
+
+Description:
+   Similar to copy, the cut button first copies all drawings on the paint board that are selected, either in single
+   select or multi-select action, and save the details to the clipboard awaiting a paste action. In addition, the items
+   that are cut will be deleted from the paint board. To access this feature, first select items, and then navigate to
+   the “Edit” menu bar and click on “Cut”.
+
+Reference:
+   US4.013
+
+--------------------------------------------------------------------------------
+FeatureName: Save File
+
+Description:
+   After designing a paint board, if the user wishes to save all annotations and changes made, then a user can navigate
+   to the “File” menu bar on the top left of the application and click on “Save”. This action opens the file explorer on
+   the user’s system and allows the user to save the file (with a .paint extension) anywhere on the system to later be
+   reopened.
+
+Reference:
+   US4.015
+
+--------------------------------------------------------------------------------
+FeatureName: New File
+
+Description:
+   Clears the contents of the current board, along with its undo history and any background features. Additionally, it
+   initialises a new paint board for the user to begin new drawings. To access this, the user can navigate to the “File”
+   menu bar on the top of the application and click on “New”.
+
+Reference:
+   US4.014
+
+--------------------------------------------------------------------------------
+FeatureName: Open File
+
+Description:
+   To access a previously saved drawing in .paint format, the user can navigate to the “File” menu on the top of the
+   screen and click on “Open”. This then opens the file explorer, allowing the user to search for a .paint file to open.
+   Once selected and opened, the contents of the saved version of the file will be loaded on the canvas, for the user to
+   update or modify.
+
+Reference:
+   US4.016
+
+--------------------------------------------------------------------------------
+FeatureName: Fill style selector
+
+Description:
+   This feature allows the user to select the current drawing style
+(filled or outlined), to be applied to subsequent shapes. Example:
+              selects fill style solid
+              mode circle
+              draw a circle
+              draw a circle
+              mode rectangle
+              draw a rectangle
+              select fill style outline
+              draw a rectangle
+              draw a rectangle
+              select mode squiggle
+              draw a squiggle
+           This results in two solid circles and a solid rectangle as well as
+           two outlined rectangles and a squiggle
+	To access the fill style picker, navigate to the “Fill Style” menu bar on the top of the application screen. There
+	are three options, which are defined as follows:
+       - Solid: The shape without the outline, just the fill. Shapes such as squiggle and polyline are unaffected by
+       this mode.
+       - Outline: The shape with only the outline and no fill. Shapes such as squiggle and polyline are unaffected by
+       this mode.
+       - Outline and Fill: The shape with only the outline and no fill. Shapes such as squiggle and polyline are
+       unaffected by this mode.
+
+Reference:
+   US3.006
+
+--------------------------------------------------------------------------------
+FeatureName: Fill Shape
+
+Description:
+   Changes the fill color of the selected shape(s) to the chosen fill color, regardless of their previous Fill Style.
+   To access this feature, the user must first select the target shape(s)(using Select Mode or Multi Select Mode), then
+   choose a fill color (using the Shape Fill Color Selector). Finally, the user can click the “Fill Shape” button
+   (with the eyedropper icon).
+
+Reference:
+   US4.033
+

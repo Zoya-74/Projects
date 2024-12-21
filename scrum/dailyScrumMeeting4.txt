@@ -1,0 +1,168 @@
+# Fill in, commit and push each day.
+Member name: Samar Karim      email: samar.karim@mail.utoronto    utorid:   karims14
+
+Oct 14,2024
+	What I did yesterday: N/A
+	What I will do today: Form a group with peers
+	Obstacles I face: Choosing what group I want to join and coordinating with them
+
+Oct 15,2024
+	What I did yesterday: Got with a group and added myself to their repo
+	What I will do today: look over the assignment on the CSC207
+	Obstacles I face: Understanding newer concepts (such as familiarizing myself with scrum
+	                  and architecture diagrams for this assignment)
+
+Oct 16,2024
+	What I did yesterday: Looked over the assignment
+	What I will do today: Open repo in lab, adding assignment with my group member baseetfa,
+	                      adding two US to Backlog
+	Obstacles I face: branching properly
+
+Oct 17,2024
+	What I did yesterday: Opened assignment and updated backlog and chose my bug
+	What I will do today: branching to work on my bug
+	Obstacles I face: properly branching
+
+Oct 18,2024
+	What I did yesterday: Branched and switched to new branch
+	What I will do today: Work on BUG1.005
+	Obstacles I face: debugging BUG1.005
+
+Oct 19,2024
+	What I did yesterday: Worked on BUG1.005
+	What I will do today: Still debugging BUG1.005
+	Obstacles I face: debugging my BUG1.005
+
+Oct 20,2024
+	What I did yesterday: finished debugging BUG1.005
+	What I will do today: Commit and push everything properly
+	Obstacles I face: Merging properly with the master branch
+
+Oct 21,2024
+	What I did yesterday: merged with master branch and resolved merging conflicts
+	What I will do today: looking at sprint2 requirements and adding square, triangle and oval US
+	Obstacles I face: Understanding how to implement new shapes
+
+Oct 22,2024
+	What I did yesterday: added new US story and BUG1.003 to backlog and sprintbacklog2
+	What I will do today: Chose what US to implement, oval and oval feedback. Aldo
+	                      had a group meeting to discuss our weekly agenda
+	Obstacles I face: figuring out the dimensions of how to implement oval
+
+Oct 23,2024
+	What I did yesterday: finished US2.020 and US2.021
+	What I will do today: rename branches to proper naming convention
+	Obstacles I face: renaming branches without messing everything up
+
+Oct 24,2024
+	What I did yesterday: renamed branches to standardized branching names
+	What I will do today: discussed architecture with team and add border to oval feedback
+	Obstacles I face: adding a border to oval feedback while dragging
+
+Oct 25,2024
+	What I did yesterday: added border to oval
+	What I will do today: study for midterm
+	Obstacles I face: understanding midterm material for tomorrow
+
+Oct 26,2024
+	What I did yesterday: studied for midterm
+	What I will do today: take the midterm
+	Obstacles I face: passing the midterm
+
+Oct 27,2024
+	What I did yesterday: Finished midterm
+	What I will do today: clean up code for submission
+	Obstacles I face: team members merging conflicts
+
+Oct 28,2024
+	What I did yesterday: Finished sprint 2 with team members
+	What I will do today: Enjoy reading week
+	Obstacles I face: catching up with my other courses
+
+Oct 29,2024
+	What I did yesterday: took a break
+	What I will do today: working on my other assignments
+	Obstacles I face: finishing those assignments on time
+
+Oct 30,2024
+	What I did yesterday: worked on other assignments
+	What I will do today: look over sprint 3
+	Obstacles I face: choosing which US to do and understand how to do a pull request
+
+Oct 31,2024
+	What I did yesterday: look over sprint 3
+	What I will do today: choosing my US
+	Obstacles I face: Not procrastinating during reading week
+
+Nov 1,2024
+	What I did yesterday: chose US3.022 as my task this sprint
+	What I will do today: start and finish US3.022
+	Obstacles I face: figuring out the polyline function and how to connect the lines while dragging and releasing
+
+Nov 2,2024
+	What I did yesterday: finished US3.022
+	What I will do today: add another user story textbox
+	Obstacles I face: figuring out how to implement textbox on canvas
+
+Nov 3,2024
+	What I did yesterday: added another user story
+	What I will do today: finish pull request and merge everyone's US
+	Obstacles I face: merging US efficiently
+
+Nov 4,2024
+	What I did yesterday: successfully merged US with team members and checked their pull requests
+    What I will do today: Make and complete Polygon US and fix custom color bug
+    Obstacles I face: implementing both Polygon US and figuring out why custom colors is not working
+
+
+Nov 5,2024
+	What I did yesterday: finished polygon and fixed custom colors
+	What I will do today: Add Rounded Rectangle and implement the shape
+	Obstacles I face: Merging all my US with team members
+
+Nov 6,2024
+	What I did yesterday: added rounded rectangle
+	What I will do today: finish team members pull requests
+	Obstacles I face: successfully merging team members US and BUG to master
+
+Nov 7,2024
+	What I did yesterday: Finished remaining pull requests from other team members
+	What I will do today: Fix slider in BUG4.010
+	Obstacles I face: Showing the exact thickness when user slides the slider
+
+Nov 8,2024
+	What I did yesterday: Fixed slider to have intervals
+	What I will do today: Pull request for my team members
+	Obstacles I face: properly merging everything without breaking our code
+
+Nov 9,2024
+	What I did yesterday: Merged all the remaining pull requests
+	What I will do today: attempt to implement fill shape and dotted lines
+	Obstacles I face: Implementing new US in time
+
+Nov 10,2024
+	What I did yesterday: Finished fill shape
+    What I will do today: add javadoc
+    Obstacles I face: finishing on time
+
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

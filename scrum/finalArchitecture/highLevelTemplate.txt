@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+New Drawing Mode:
+Description:
+	(description of what the feature is and how it is tied to the architecture
+	application and the code...)
+
+	A drawing mode enables a user to naturally draw a shape on the screen. The 
+	drawing mode consists of an image icon appearing in the left button panel.
+	When the user clicks the image icon, the drawing mode is enabled. This means
+	that a strategy for handling user input for this drawing mode is installed.
+
+	At this point, all mouse events in ... 
+
+Implementation:
+	(inventory of ideas, required files, how they are tied to the architecture,
+		naming conventions (example: images/ButtonIconSquare.jpg, MHStrategySquare, ShapeSquare...)
+
+	To add a new drawing mode named X provide...
+
+	(list of aspects of code to touch to implement the new drawing mode)
+
+	image icon: Create a jpg image with dimensions 128x128, and place it
+		on display in the Button Panel, placed in images/ButtonIconX.jpg
+		(any special discussion...)
+
+	MouseHandlerStrategy: 
+		describing how user events are used to build the PaintModel...
+		(any special discussion...)
+		
+	PaintShape:
+		 describing the attributes of the new shape as well as how it is drawn...
+		(any special discussion...)
+
+Example: 
+	(for example, a list of files involved in the implementation of the Square drawing mode)
+--------------------------------------------------------------------------------

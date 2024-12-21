@@ -1,0 +1,308 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 4 Nov 10-Nov 10, 2024
+# Sprint 4 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.024 : karims14 : Complete
+NAME     : Draw Polygon
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 3 hours
+AS A     : user
+I WANT   : To be able to draw an enclosed polygon shape by pressing and holding
+           the mouse, dragging to create a line segment, and releasing to define the
+           end point of the line segment. After each release, I want to continue to
+           form additional segments by clicking again and dragging. To complete the
+           polygon, I want to double-click the starting point which should be marked by
+           a circle.
+SO THAT  : I can add any free-form Polygon on the canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.025 : karims14 : Complete
+NAME     : Draw Polygon Feedback
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 1 hour
+AS A     : user
+I WANT   : To see the lines from the starting point to my mouse, once I click/release
+           I can see that I made a side of my polygon.
+SO THAT  : I can see the polygon I am building before finalising the addition of
+           the polygon to the canvas, to adjust its dimensions and appearance.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.009 : karims14 : Complete
+NAME     : Fix custom color mode in color selector
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 6 hours
+ISSUE    : The custom color selector options in the outline and fill Color Selector dropdowns are
+           not working, and it crashes the program when selected.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.027 : karims14 : Complete
+NAME     : Draw Rounded Rectangle
+PRIORITY : 3
+ESTIMATE : 1 hours      ACTUAL : 30 minutes
+AS A     : user
+I WANT   : Click on one corner of a rounded rectangle, drag,
+           and release to specify two corners of a rounded
+           rectangle and display a rectangle with 4 rounded
+           corners on the canvas.
+SO THAT  : I can add rounded rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.028 : karims14 : Complete
+NAME     : Draw Rounded Rectangle Feedback
+PRIORITY : 3
+ESTIMATE : 1 hours      ACTUAL : 30 minutes
+AS A     : user
+I WANT   : As a user is specifying a Rounded Rectangle, during the drag, a 'current'
+           rounded rectangle should be on display. As the user drags, the 'current'
+           rounded changes in real time so that a rounded rectangle is drawn with
+           the corner of the rounded rectangle at the user's initial rounded rectangle
+           click, with the length and width out to the current dragged mouse position
+SO THAT  : I can see the rounded rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.010 : karims14 : Complete
+NAME     : Change Thickness Selector to a Thickness Slider
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 30 minutes
+ISSUE    : The user has to select a thickness mode which increments by one.
+           Instead, it should be any thickness between the minimum and
+           maximum thickness, and can be any continuous value.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.012 : fatim185 : Complete
+NAME     : Rectangle, Square and Oval only drag in one direction
+PRIORITY : 3
+ESTIMATE : 2 days       ACTUAL : 1 hour
+ISSUE    : When drawing the rectangle, square and oval shapes by dragging,
+           it is only possible to drag them towards the lower right of the
+           screen, despite different mouse movements. User should be able to
+           draw all shapes in any direction.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.031 : fatim185 : Complete
+NAME     : Outline Color Selector
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 1 hour
+AS A     : user
+I WANT   : Be able to select the color of the outline of any shape
+           For example:
+            I select the color to be yellow
+            I select fill Style to be outlined and fill
+            I draw a rectangle
+            I draw a square
+            The canvas should contain a yellow outlined and filled rectangle
+            and a yellow outlined and filled square
+SO THAT  : I can choose the color of my shape outline.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.014 : fatim185 : Complete
+NAME     : Default color of shapes does not show on color picker
+PRIORITY : 3
+ESTIMATE : 1 hour       ACTUAL : 30 minutes
+ISSUE    : The default color of all shapes is black, but the color picker
+           shows the initial color as white.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.015 : fatim185 : Complete
+NAME     : Polygon Outline is delayed
+PRIORITY : 3
+ESTIMATE : 1 Hour       ACTUAL : 1 Hour
+ISSUE    : The correct Polygon shape outline color does not show during the
+           drawing process and only once it is finished drawing
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.016 : fatim185 : Completed
+NAME     : Select mode for Rectangle, Oval, Rounded Rectangle and Square is broken
+PRIORITY : 3
+ESTIMATE : 1 Hour       ACTUAL : 1 Hour
+ISSUE    : The select shape button does not select the shapes when they are
+           drawn in any other direction except bottom right.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.033 : karims14 : Completed
+NAME     : Modify Fill Shape Color
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 1 day
+AS A     : user
+I WANT   : To select one or multiple elements on the canvas and change their fill
+           color directly.
+SO THAT  : Change the fill color of an element without undoing, selecting fill color
+           and redrawing the element.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.013 : fatim185 : Complete
+NAME     : Cut Button
+PRIORITY : 3
+ESTIMATE : 4 hours      ACTUAL : 2 Hours
+AS A     : user
+I WANT   : To select single or multiple shapes and click the "Cut" button in the
+           edit menu to delete the selected shape(s) and simultaneously copy the selected elements.
+SO THAT  : I can select any combination of elements and delete them while preserving the cut shapes
+           on a clipboard.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.014 : baseetfa : Complete
+NAME     : New File Button
+PRIORITY : 3
+ESTIMATE : 1 hour       ACTUAL : 1 hour
+AS A     : user
+I WANT   : To click on "New" button and open a new canvas
+SO THAT  : It initiates the creation of a fresh paint panel workspace. The button
+           should clear any previously open panel, including the content, settings,
+           all elements and the undo history. This action should not have the option to
+           be reverted
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.016 : baseetfa : Complete
+NAME     : Open File Button
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 1 day
+AS A     : user
+I WANT   : To be able to click on an "open" button in the "File" dropdown
+SO THAT  : I can click the "open" button to locate and open a previously saved
+           .paint file from any directory on the device that is running the
+           Paint program. Once the file to open is located on the device, I
+           can click "open file" on my file explorer and display all the elements
+           and layout that were saved on the file.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.020 : fatim185 : Complete
+NAME     : Architecture changes not compatible with copy command
+PRIORITY : 3
+ESTIMATE : 1 Hour       ACTUAL : 1 Hour
+ISSUE    : Architecture changes created new classes for rounded rectangle, circle
+           and square which do not have a copy method. When copying any elements of
+           the type of the new classes made, the class's copy method
+           is copying the super class attributes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.019 : fatim185 : Complete
+NAME     : Boundary for squiggle select is too large
+PRIORITY : 3
+ESTIMATE : 1 Hour       ACTUAL : 1 Hour
+ISSUE    : When selecting a squiggle shape on the paint panel, the shape is being
+           selected despite the mouse position being further from the shape. The
+           boundary that checks whether the mouse position is on the squiggle shape
+           is too big.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.011 : fatim185 : Complete
+NAME     : Paste Button
+PRIORITY : 3
+ESTIMATE : 2 hours      ACTUAL : 1 hour
+AS A     : user
+I WANT   : A "Paste" option in the "Menu" dropdown to paste copied elements
+SO THAT  : I can insert any copied elements of the paint panel directly on the
+           canvas exactly how it was copied. When I click the "Paste" button, it should
+           take any elements previously copied and place it in a new location on the
+           paint panel. The pasted elements preserve any configurations of the
+           previous elements.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.010 : fatim185 : Completed
+NAME     : Copy Button
+PRIORITY : 3
+ESTIMATE : 4 hours      ACTUAL : 4 hours
+AS A     : user
+I WANT   : A "Copy" button in the "Menu" dropdown to copy select elements.
+SO THAT  : When the button is clicked, the program saves any selected elements
+           as their current state on a 'clipboard'.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.018 : pradha91 : Complete
+NAME     : Square, Rounded Rectangle, and Circle are not separate classes.
+PRIORITY : 3
+ESTIMATE : 1 Hour       ACTUAL : 1 Hour
+ISSUE    : Square and Rounded Rectangle shapes share similar logic
+           with rectangle, and Circle shares similar logic with Oval.
+           Currently, boolean flags are used to determine the type of
+           shape in classes Rectangle and Oval. Instead, create new
+           classes for shapes Square, Rounded Rectangle, Circle and
+           Polyline which extend their corresponding base-shape to
+           reduce the use of conditional logic in every method.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.029 : pradha91 : Complete
+NAME     : Select and Move TextBox
+PRIORITY : 3
+ESTIMATE : 1 hour       ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to select any text box currently displayed on the canvas
+           and move it around.
+SO THAT  : I can reposition text boxes exactly where I need them, or
+           adjust any configurations of the text box that requires selection.
+           I can organize my text box elements, align the elements and make
+           quick adjustments without needing to create a new text box element.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.015 : baseetfa : Complete
+NAME     : Save File Button
+PRIORITY : 3
+ESTIMATE : 2 days       ACTUAL : 4 days
+AS A     : user
+I WANT   : A "Save" button in the "File" dropdown to save the current canvas
+SO THAT  : I can save all the contents of my canvas to a file, which can be
+           downloaded to any directly on my device. The "Save" button should
+           prompt me to choose a location on my device from the File Explorer
+           and save the current state of the canvas as a .paint file.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.032 : pradha91 : Complete
+NAME     : Dynamic Application Size
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 2 days
+AS A     : user
+I WANT   : To be able to maximise and minimise the size of the paint application,
+           and access scroll features to view any part of the drawing that is not
+           visible when the window is too small to display all annotations.
+SO THAT  : I can draw on the paint application even when the tab is small, and
+           the size of the canvas increases as I maximise it. Minimizing the size
+           of the window doesn't delete annotations/edits previously.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.030 : pradha91 : Complete
+NAME     : Single and Multiple Select Shape Mode
+PRIORITY : 3
+ESTIMATE : 1 day        ACTUAL : 2 days
+AS A     : user
+I WANT   : To be able to select single or multiple elements on the paint canvas by
+           clicking over the elements. When I click on the shape, it should change
+           color to indicate it has been selected
+SO THAT  : I can select and rearrange the element by dragging them to a new posision
+           without affecting the rest of the elements on the canvas. I can also perform
+           other features that require selecting to modify the element.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.011 : pradha91 : Complete
+NAME     : Architecture of the View class and Command class is unclear
+PRIORITY : 3
+ESTIMATE : 2 days       ACTUAL : 4 days
+ISSUE    : The design pattern used initially for ShapeChooserPanel and View class
+           architecture does not match the Design Pattern UML's for Command
+           and MVC. Need to create classes that follow proper UML diagram design.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.026 : pradha91 : Complete
+NAME     : Background Colour Selector
+PRIORITY : 3
+ESTIMATE : 1 hour       ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to change the background color of the canvas by clicking a
+           button
+SO THAT  : I can create designs with customized background colors on canvas. I can choose
+           the color I want, and then click the background color button to change
+           the color of the background.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.034 : karims14 : Completed
+NAME     : Add Javadoc
+PRIORITY : 3
+ESTIMATE : 2 hours  ACTUAL : 5 hours
+AS A     : developer
+I WANT   : To add Javdocs to all classes and methods
+SO THAT  : Other developers can understand the paint application code
+--------------------------------------------------------------------------

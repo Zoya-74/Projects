@@ -1,0 +1,80 @@
+# Move User Stories from the ProductBacklog
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 Oct 13-Oct 20, 2024
+# Sprint 1 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.001 : pradha91 : Complete
+NAME     : Icons instead of text for drawing mode selection
+PRIORITY : 1
+ESTIMATE : 2 days       ACTUAL : 2 days
+ISSUE    : Currently, the drawing mode selection is represented by text labels
+           on the buttons. It would be more intuitive and visually appealing to
+           replace the text labels with recognizable icons for each button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.002 : fatim185 : Complete
+NAME     : Drawing selection mode not indicated
+PRIORITY : 1
+ESTIMATE : 2 days       ACTUAL : 4 hours
+ISSUE    : Currently, you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is there a way
+           to highlight the currently selected mode?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.005 : karims14 : Complete
+NAME     : Squiggle is broken
+PRIORITY : 1
+ESTIMATE : 4 hours      ACTUAL : 6 hours
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+		   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.006 : baseetfa : Complete
+NAME     : Circle drawing is broken
+PRIORITY : 1
+ESTIMATE : 2 days       ACTUAL : 1 hour
+ISSUE    : The first click should specify the center of the circle, with
+           a drag for the radius. This is not the case in the current
+           implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.002 : pradha91 : Complete
+NAME     : Draw Circle Feedback
+PRIORITY : 2
+ESTIMATE : 4 hours      ACTUAL : 2 hours
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+           circle should be on display. As the user drags, the 'current'
+           circle changes in real time so that a circle is drawn with
+           centre at users initial circle click, and the radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.003 : pradha91 : Complete
+NAME     : Draw Rectangle
+PRIORITY : 2
+ESTIMATE : 4 hours      ACTUAL : 1 hour
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to
+		   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.004 : fatim185 : Complete
+NAME     : Draw Rectangle Feedback
+PRIORITY : 2
+ESTIMATE : 2 hours      ACTUAL : 1 hour
+AS A     : user
+I WANT   : As a user is specifying a Rectangle, during the drag, a 'current'
+           rectangle should be on display. As the user drags, the 'current'
+           rectangle changes in real time so that a rectangle is drawn with
+           a corner at users initial rectangle click, and the length and width out to
+           the current dragged mouse position.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------

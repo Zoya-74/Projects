@@ -1,0 +1,169 @@
+# Fill in, commit and push each day.
+Member name: Aarav Pradhan      email:  aarav.pradhan@mail.utoronto.ca   utorid: pradha91
+
+Oct 14,2024
+	What I did yesterday: N/A
+	What I will do today: Read the assignment objectives and form a group
+	Obstacles I face: Coordinating with peers for group formation
+
+Oct 15,2024
+	What I did yesterday: Discussed with my peers to form a group, and completed the group form on the page.
+	What I will do today: Have an brief meeting with my team members to understand the tasks we have to complete in the timeframe
+	Obstacles I face: Setting aside time to coordinate tasks, and gauging how much time each teammate can commit to the assignment with personal commitments aside
+
+Oct 16,2024
+	What I did yesterday: Had a brief meeting with my teammates, and discussed project objectives.
+	What I will do today: Read the lab07 handout and coordinated with teammates who had a lab on 16th of October and populated the repository.
+	Obstacles I face: Understanding branching and merging with several contributors on a repository.
+
+Oct 17,2024
+	What I did yesterday: Read the lab07 handout and assignment 2 introduction, synchronised my progress with the work completed by teammates the previous day.
+	What I will do today: Complete my additions of 2 user stories to product backlog, selecting a bug to implement, and begin branching on that bug.
+	Obstacles I face: Following proper branching conventions, including naming branches, setting upstream and committing on branch.
+
+Oct 18,2024
+	What I did yesterday: Added my information to members.txt and ran Paint.java, added two user stories amd pushed to master.
+	What I will do today: Begin implementing BUG1.001, setting expected timeframe to 2 days.
+	Obstacles I face: Understanding the JavaFX API for buttons and the addition of graphics to the app.
+
+Oct 19,2024
+	What I did yesterday: Reviewed and researched JavaFX API on Buttons, Image, ImageView, along with setGraphic() method.
+	What I will do today: Fully implement and complete BUG1.001 and commit and merge the branch with the master to include icons on the buttons.
+	Obstacles I face: Ensuring encapsulation and proper class relationships, and following JavaFX API to implement icons.
+
+Oct 20,2024
+	What I did yesterday: Successfully committed and pushed BUG1.001 to master and updated product and sprint1 backlogs.
+	What I will do today: Work on User Stories part of sprint1backlog and add more UML diagrams to Architecture.pdf.
+	Obstacles I face: Ensuring the team's diagrams reflect the rules of UML diagrams, and descriptions are consistent with the code design.
+
+Oct 21,2024
+	What I did yesterday: Completed architecture.txt, designed and organized UML diagrams, finished all the User Stories and Bugs for sprint 1
+	and coordinated with team members to ensure all tasks are finished
+	What I will do today: Read the sprint2 handout and begin allocating tasks to sprint 2 backlog, along with meeting with the team
+	to decide what tasks each member will do.
+	Obstacles I face: Understanding the program architecture, and creating solutions consistent to it.
+
+Oct 22,2024
+	What I did yesterday: Updated sprintbacklog 2, allocated tasks for sprint 2 to team members, discussing the main changes required in code to meet the requirements.
+	What I will do today: Assign main coding tasks to team members, and decide how many user stories and bugs each team member should complete keeping in mind the work they
+	completed in the first sprint.
+	Obstacles I face: Deciding which tasks to allocate to each teammate, and begin working on the required objectives.
+
+Oct 23,2024
+	What I did yesterday: Discussed and planned architecture considerations with teammates, and established the need of link between classes
+	circle, rectangle, oval and triangle
+	What I will do today: Understand which design patterns to use to enhance architecture, including possibly the command and factory design patterns.
+	Obstacles I face: Understanding which design pattern(s) should be implemented in the existing code to improve the architecture, is it suitable, and considering the drawbacks.
+
+Oct 24,2024
+	What I did yesterday: Decided to modify PaintPanel by considering how to represent all the different shapes and modes in one class. Researched
+	and read into the decorator design pattern along with the builder design pattern to decide how to efficiently allocate draw modes.
+	What I will do today: Have a meeting with teammates to discuss the possibility of breaking BUG2.003 down into smaller, more
+	achievable bugs to improve architecture in a step-wise process.
+	Obstacles I face: Being able to create sub-tasks out of a large task like improving code architecture.
+
+Oct 25,2024
+	What I did yesterday: Broke BUG2.003 into three major subtasks and branched off the branch BUG2.003 to implement each task and eventually merge back to branch
+	What I will do today: Prepare for the CSC207 midterm, and study design patterns to both benefit my knowledge and code architecture considerations.
+	Obstacles I face: Ensuring stress management, and retaining information.
+
+Oct 26,2024
+	What I did yesterday: Studied for the CSC207 term test
+	What I will do today: Give the CSC207 term test.
+	Obstacles I face: Ensuring I manage my time effectively, and am aware of all the required concepts.
+
+Oct 27,2024
+	What I did yesterday: Completed the CSC207 Term test, and then began working on BUG2.003 again.
+	What I will do today: Complete BUG2.003, rearrange the code created by my group members to meet the architectural changes and push to remote.
+	Obstacles I face: Ensuring that the code logic remains unchanged while making architectural changes, and managing merging back to the master branch.
+
+Oct 28,2024
+	What I did yesterday: Completed and pushed all requirements for sprint 2
+	What I will do today: Wait for sprint 3 information to release.
+	Obstacles I face: Planning once the sprint releases.
+
+Oct 29,2024
+	What I did yesterday: Waited for sprint 3 information to release.
+	What I will do today: Read through the sprint 3 briefs, and discuss the basic premise of tasks with teammates.
+	Obstacles I face: Delegating tasks to teammates according to past contributions
+
+Oct 30,2024
+	What I did yesterday: Had a call with teammates to understand which tasks to perform with each teammate, I took up BUG?.004
+	What I will do today: Consider options for architecture changes to PaintPanel and shape classes.
+	Obstacles I face: Deciding which design patterns to apply to each class involved in paintpanel.
+
+Oct 31,2024
+	What I did yesterday: Decided to first implement a shape super class to enclose all annotations under one class. Using a factory design pattern to prevent the case conditions checking modes.
+	What I will do today: Create the new BUG3.004 branch, select and update the product and sprint 3 backlogs, and begin making changes
+	Obstacles I face: Deciding how my changes impact the rest of the code and the correctness of logic.
+
+Nov 1,2024
+	What I did yesterday: Implemented the shape super class, and created inheritance relationships with all the draieng modes. Pushed changes on branch.
+	What I will do today: Fix a bug in the functionality and addition of shapes to the PaintModel, and push changes to the branch, attempting to complete BUG3.004
+	Obstacles I face: Ensuring that my changes to the architecture match my group members' implementations of User Stories.
+
+Nov 2,2024
+	What I did yesterday: Completed BUG3.004, and planned the redo and undo functionality for user stories.
+	What I will do today: Set a pull request for BUG3.004, and got the bug branch merged to master. Began working on Undo/Redo.
+	Obstacles I face: Ensuring that we manage any merge conflicts that may occur while merging all the team members' branches.
+
+Nov 3,2024
+	What I did yesterday: Completed BUG3.005, Completed US3.008 and US3.009 adding undo/redo functionality and enlarging the canvas UI.
+	What I will do today: Organize, manage pull requests and merge to master. Coordinate with team members to finalise changes.
+	Obstacles I face: Ensuring pull requests are handled properly.
+
+Nov 4,2024
+	What I did yesterday: Merged and completed sprint3, ensuring all required information is complete.
+	What I will do today: Plan for tasks and user stories in sprint 4, and finalize architecture and code organization.
+	Obstacles I face: Ensuring the code meets the expectations of the use-case.
+
+Nov 5,2024
+	What I did yesterday: Worked on User stories for adding text box, additional feature. Began fixing architecture to meet new changes.
+	What I will do today: Continue and finish text box and continue architecture changes, handle team pull requests.
+	Obstacles I face: Ensuring all tasks are completed punctually and team members coordinate changes.
+
+Nov 6,2024
+	What I did yesterday: Completed implementing select mode, and multi select mode.
+	What I will do today: Add a pull request to merge select mode, and begin implementing changes to the application size and layout.
+	Obstacles I face: Ensuring that additional features function as needed and do not negatively impact base features of the application.
+
+Nov 7,2024
+	What I did yesterday: Busy making several architectural changes for the Assignment 2, and changing the selection logic, along with undo logic.
+	What I will do today: Complete and merge selection user story, architecture changes bug, and finish background colour change bug. Begin working on architecture.txt.
+	Obstacles I face: Managing my time well and allocating tasks effectively to team members.
+
+Nov 8,2024
+	What I did yesterday: Completed selection user story, and added move element functionality to selection.
+	What I will do today: Complete add background user story, fix any bugs or issues after merging changes, and work on final writing documents.
+	Obstacles I face: Making changes that align with the major architecture changes.
+
+Nov 9,2024
+	What I did yesterday: Completed selection, and finished full undo functionality. Worked on architecture and writing.
+	What I will do today: Continue working on architecture documents, organize and rename files based on design patterns.
+	Obstacles I face: Making changes while team members merge more changes to master.
+
+Nov 10,2024
+	What I did yesterday: Completed remainings bugs and stories
+	What I will do today: Finish final version of assignment.
+	Obstacles I face: Completing on time.
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

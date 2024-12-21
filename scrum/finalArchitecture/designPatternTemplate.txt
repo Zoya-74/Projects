@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+Name: (name) (so you can refer to it below)
+Pattern Name: (Factory/Command/Strategy/...) 
+Reference: (link to a specific version of a DP in https://www.oodesign.com/), for example...
+	https://www.oodesign.com/images/design_patterns/behavioral/iterator_implementation_-_uml_class_diagram.gif
+
+Purpose: 
+	(why is this pattern implemented? think SOLID as possible reasons and explain in terms of the application)
+
+UML: 
+	(include a UML or refer to one included in the finalArchitecture directory)
+	(make it easy on us, and organize the diagram so that it looks like the
+	reference pattern).
+
+Classes: 
+	(list classes involved and their roles based on Reference above)
+	class1: role1
+	class2: role1
+	class3: role1
+	class4: role1
+
+Usage: 
+	(Briefly describe why a developer would be playing with this part of 
+	the code and how they would use it to achieve that purpose)
+
+--------------------------------------------------------------------------------
